@@ -1,5 +1,3 @@
-package alfredBot;
-
 import java.util.Date;
 
 public class AlfredQuotes {
@@ -22,14 +20,14 @@ public class AlfredQuotes {
         Boolean alexis = false;
         Boolean alfred = false;
         if (alexis) {
-            return "Right away, sir. She certainly isn't sophisticated enough for that.";
+            return conversation + " Right away, sir. She certainly isn't sophisticated enough for that.";
             // System.out.println("Right away, sir. She certainly isn't sophisticated enough
             // for that.");
         } else if (alfred) {
-            return "At your service. As you wish, naturally.";
+            return conversation + " At your service. As you wish, naturally.";
             // System.out.println("At your service. As you wish, naturally.");
         } else {
-            return "Right. And with that I shall retire.";
+            return conversation + " Right. And with that I shall retire.";
             // System.out.println("Right. And with that I shall retire.");
         }
     }
