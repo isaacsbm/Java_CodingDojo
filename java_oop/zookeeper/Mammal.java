@@ -24,12 +24,12 @@ public class Mammal {
         // throwSomthing - decrease energy by 5 and print a message saying it has throw something
         public void throwSomething(){
             setEnergy(getEnergy() - 5);
-            System.out.println("The Gorilla threw a banana!")
+            System.out.println("The Gorilla threw a banana!");
         }
         //eatBananas - increase the gorilla's energy by 10 and print a message for the gorilla's success!
 
         public void eatBananas(){
-            System.out.println("The Gorilla ate a banana!")
+            System.out.println("The Gorilla ate a banana!");
             setEnergy(getEnergy() + 10);
         }
         //climb - decrease the gorilla's energy by 10 and print a message indicating he has climbed a tree
@@ -46,7 +46,7 @@ public class Mammal {
         }
         //fly  - decrease the bat's energy by 50 and indicate airborn
         public void fly(){
-            System.out.println("The Bat has taken off!")
+            System.out.println("The Bat has taken off!");
             setEnergy(getEnergy() - 50);
         }
         //eatHumans - increaset the bat's energy by 25 and message

@@ -1,6 +1,6 @@
-public class AnimalTest {
+public class MammalTest {
     public static void main(String[] args) {
-        Gorilla gorilla = new gorilla();
+        Gorilla gorilla = new Gorilla();
         Bat bat = new Bat();
 
         System.out.println("Gorilla Class Test: ");
